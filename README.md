@@ -38,17 +38,25 @@ $ make run
 ```
 
 This will download and build the dependencies as well as attempt to compile
-YAWS for you. If you are not running on Linux, this may not work and you will
+YAWS for you. If you are not running on Linux, this may not work and you may
 need to swtch to ``_build/default/lib/yaws``, scan the ``README``s and then
 build.
 
 After a successful ``make run`` you will see output like the following:
 
 ```
-=INFO REPORT==== 8-Apr-2016::19:50:15 ===
-yaws debug:Running with id="lfeyawsdemo"
+=INFO REPORT==== 21-Apr-2016::17:28:59 ===
+yaws debug:Running with id="lfeyawsmini"
 Running with debug checks turned on (slower server)
-Logging to directory "lfeyawsdemo/log"
+Logging to directory "/home/oubiwann/lab/lfe/lfeyawsmini/log"
+
+=INFO REPORT==== 21-Apr-2016::17:28:59 ===
+Ctlfile : /home/oubiwann/.yaws/yaws/lfeyawsmini/CTL
+
+=INFO REPORT==== 21-Apr-2016::17:28:59 ===
+Yaws: Listening to 0.0.0.0:5099 for <1> virtual servers:
+ - http://localhost:5099 under /home/oubiwann/lab/lfe/lfeyawsmini/priv/www
+
 ```
 
 
