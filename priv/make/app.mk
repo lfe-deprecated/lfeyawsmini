@@ -17,8 +17,8 @@ yaws: $(YAWS_DIR)/configure
 	@cd $(YAWS_DIR) && make > $(YAWS_MAKE_LOG)
 
 run: compile
-	@$(YAWS_DIR)/bin/yaws -i \
-	-pa `rebar3 path -s" -pa "` \
+	$(YAWS_DIR)/bin/yaws -i \
+	--pa `rebar3 path -s" --pa "` \
 	--conf $(APP_DIR)/priv/etc/yaws.conf \
 	--id $(PROJECT)
 

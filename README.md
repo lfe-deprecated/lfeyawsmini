@@ -1,6 +1,6 @@
-# lfeyawsdemo
+# lfeyawsmini
 
-*A Sample LFE+YAWS Web Application*
+*A Minimal Sample LFE+YAWS Web Application*
 
 
 #### Contents
@@ -14,8 +14,8 @@
 
 ## Introduction [&#x219F;](#contents)
 
-This is a quick demonstration application built using YAWS and LFE, with
-additional supporting libraries.
+This is a quick and super-minimal demonstration application built using YAWS
+and LFE, with additional supporting libraries.
 
 
 ## Dependencies [&#x219F;](#contents)
@@ -58,19 +58,3 @@ Once your ``make run`` command shows YAWS starting, it's ready to view in a
 browser:
 
 * [localhost:5099](http://localhost:5099/)
-
-This should load up a page that looks like the following:
-
-[![][screen]][screen-large]
-
-[screen]: priv/www/images/screenshot-thumb.png
-[screen-large]: https://raw.githubusercontent.com/lfex/yaws-sample-app/master/priv/www/images/screenshot.png
-
-
-## Docker [&#x219F;](#contents)
-
-This project was originally derrived from the
-[LFE/YAWS Docker sample app](https://github.com/lfex/docker-lfe-yaws-sample-app).
-However, after that code was used to generate the lfeyawsdemo project, the
-original was updated to use the new lfeyawsdemo project. As such, both projects
-now use the same code.
